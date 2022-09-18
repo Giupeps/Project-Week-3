@@ -8,57 +8,51 @@
     <title>Calcolatrice in JS</title>
 </head>
 <body>
-    <main>
-       <div id="calculator">
+  <main>
+    <div id="calculator">
 
-          <div id="display-container">
+      <div id="display-container">
             
-              <input type="text" id="display" readonly placeholder="Calcolatrice" />
-          </div>
-
-            <div id="calculator-keys">
-
-             
-             
-             
-
-             
-           
-              <button onclick="back()">Back</button>
-              <button onclick="clearAll()" class="all-clear" >AC</button>
-              
-              
-            
-              <button onclick="addSymbol('7')">7</button>
-              <button onclick="addSymbol('8')">8</button>
-              <button onclick="addSymbol('9')">9</button>
-              <button onclick="addSymbol('/')" class="operation">&divide;</button>
-              
-        
-        
-              <button onclick="addSymbol('4')">4</button>
-              <button onclick="addSymbol('5')">5</button>
-              <button onclick="addSymbol('6')">6</button>
-              <button onclick="addSymbol('*')"class="operation">&times;</button>
-        
-        
-              <button onclick="addSymbol('1')">1</button>
-              <button onclick="addSymbol('2')">2</button>
-              <button onclick="addSymbol('3')">3</button>
-              <button onclick="addSymbol('-')"class="operation">-</button>
-              
-               
-              <button onclick="addSymbol('0')">0</button>
-              <button onclick="addSymbol(',')" class="clear-of-one">,</button>
-              <button onclick="calc()" class="equal-sign" >=</button>
-              <button onclick="addSymbol('+')"class="operation">+</button>
-             
-
-            </div>
+        <input type="text" id="display" readonly placeholder="Calcolatrice" />
       </div>
 
-    </main>
+      <div id="calculator-keys">
 
-    <script src="./assets/js/script.js"></script>
+        <button onclick="back()">Back</button>
+        <button onclick="clearAll()" class="all-clear" >AC</button>
+              
+              
+            
+        <button onclick="addSymbol('7')">7</button>
+        <button onclick="addSymbol('8')">8</button>
+        <button onclick="addSymbol('9')">9</button>
+        <button onclick="addSymbol('/')" class="operation">&divide;</button>
+              
+        
+        
+        <button onclick="addSymbol('4')">4</button>
+        <button onclick="addSymbol('5')">5</button>
+        <button onclick="addSymbol('6')">6</button>
+        <button onclick="addSymbol('*')"class="operation">&times;</button>
+        
+        
+        <button onclick="addSymbol('1')">1</button>
+        <button onclick="addSymbol('2')">2</button>
+        <button onclick="addSymbol('3')">3</button>
+        <button onclick="addSymbol('-')"class="operation">-</button>
+              
+               
+        <button onclick="addSymbol('0')">0</button>
+        <button onclick="addSymbol(',')" class="clear-of-one">,</button>
+        <button onclick="calc()" class="equal-sign" >=</button>
+        <button onclick="addSymbol('+')"class="operation">+</button>
+             
+
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
